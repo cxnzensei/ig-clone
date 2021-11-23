@@ -70,7 +70,7 @@ function Signup() {
 				<div className="flex flex-col items-center bg-white p-4 border border-gray-primary rounded mb-4">
 					<h1 className="flex justify-center w-full mb-3">
 						<img
-							src="./images/logo.png"
+							src="/images/logo.png"
 							alt="logo"
 							className="mt-2 w-6/12"
 						/>
