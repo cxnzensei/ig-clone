@@ -61,7 +61,7 @@ function Signup() {
 		<div className="container flex mx-auto max-w-screen-md lg:items-center justify-center sm:h-screen">
 			<div className="flex lg:w-3/5">
 				<img
-					className="hidden max-w-full lg:inline-grid"
+					className="iphone max-w-full"
 					src="/images/iphone.jpg"
 					alt="iphone"
 				/>
