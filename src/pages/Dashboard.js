@@ -1,4 +1,3 @@
-import { useEffect } from "react/cjs/react.development";
 import Header from "../components/Header";
 import Sidebar from "../components/sidebar/index";
 import Timeline from "../components/Timeline";
