@@ -62,7 +62,7 @@ function Signup() {
 			<div className="flex lg:w-3/5">
 				<img
 					className="hidden max-w-full lg:inline-grid"
-					src="./images/iphone.jpg"
+					src="/images/iphone.jpg"
 					alt="iphone"
 				/>
 			</div>
