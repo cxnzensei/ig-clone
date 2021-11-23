@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #fafafa;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+* ::-webkit-scrollbar {
+	display: none;
+}
+
+.scrollbar_hide::-webkit-scrollbar {
+	display: none;
+}
+
+.sideBar {
+	display: none;
+}
+
+.heart {
+	display: inline-block;
+}
+
+.iphone {
+	display: inline-block;
+}
+
+@media (min-width: 768px) {
+	.sideBar {
+		display: inline-block;
+	}
+	.heart {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	.iphone {
+		display: none;
+	}
+}
