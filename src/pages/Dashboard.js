@@ -4,10 +4,6 @@ import Sidebar from "../components/sidebar/index";
 import Timeline from "../components/Timeline";
 
 function Dashboard() {
-	useEffect(() => {
-		document.title = "Instagram";
-	});
-
 	return (
 		<div>
 			<div className="bg-gray-background">
