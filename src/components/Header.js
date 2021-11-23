@@ -24,6 +24,8 @@ function Header() {
 		user: { profilePhoto },
 	} = useUser();
 
+	const user_name = user.displayName.toLowerCase();
+
 	return (
 		<header className="h-16 bg-white border-b border-gray-primary mb-8 sticky top-0 z-50">
 			<div className="container mx-auto max-w-screen-lg h-full">
@@ -77,7 +79,7 @@ function Header() {
 									<LogoutIcon className="w-6 md:w-8 mr-4" />
 								</button>
 								<div className="flex items-center cursor-pointer">
-									<Link to={`/p/${user.displayName}`}>
+									<Link to={`/p/${user_name}`}>
 										{profilePhoto ? (
 											<img
 												className="rounded-full w-6 h-6 md:w-8 md:h-8 bg-gray-primary object-cover"
